@@ -10,3 +10,25 @@ run with docker-compose
 ```bash
 docker-compose -d --build
 ```
+
+
+## Links
+* [FastAPI with Async SQLAlchemy, SQLModel, and Alembic](https://testdriven.io/blog/fastapi-sqlmodel/)
+
+## Pre commit Hooks
+
+```bash
+pip install pre-commit
+```
+create a sample pre-commits file
+```bash
+pre-commit sample-config > .pre-commit-config.yaml
+```
+edit this file to add hooks
+install hooks
+```bash
+pre-commit install --install-hooks
+```
+
+Links
+* [pre-commit: A framework for managing and maintaining multi-language pre-commit hooks.](https://pre-commit.com/)
