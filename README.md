@@ -30,5 +30,10 @@ install hooks
 pre-commit install --install-hooks
 ```
 
+## Container registry
+
+
+
 Links
 * [pre-commit: A framework for managing and maintaining multi-language pre-commit hooks.](https://pre-commit.com/)
+* [Github: Working with the Container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
