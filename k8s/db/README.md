@@ -19,13 +19,6 @@ microk8s enable helm3
 helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
 
-create pg-user secret
-
-```bash
-kubectl create secret generic pg-user \
---from-literal=postgres-password='<PGPASSWORD>'
-```
-
 install helm chart
 ```bash
 helm install postgres -f k8s/db/values.yaml bitnami/postgresql
