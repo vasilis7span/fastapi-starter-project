@@ -26,7 +26,7 @@ global:
       username: ""
       password: ""
       database: ""
-      existingSecret: "pg-user"
+      existingSecret: ""
     ## @param global.postgresql.service.ports.postgresql PostgreSQL service port (overrides `service.ports.postgresql`)
     ##
     service:
@@ -115,16 +115,16 @@ auth:
   enablePostgresUser: true
   ## @param auth.postgresPassword Password for the "postgres" admin user
   ##
-  postgresPassword: ""
+  postgresPassword: "pgpassword"
   ## @param auth.username Name for a custom user to create
   ##
-  username: ""
+  username: "dbuser"
   ## @param auth.password Password for the custom user to create
   ##
-  password: ""
+  password: "dbpass"
   ## @param auth.database Name for a custom database to create
   ##
-  database: ""
+  database: "dbdemo"
   ## @param auth.replicationUsername Name of the replication user
   ##
   replicationUsername: repl_user
