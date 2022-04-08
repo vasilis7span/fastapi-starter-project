@@ -1,0 +1,10 @@
+assets/
+k8s/
+.pre-commit-config.yaml
+docker-compose.yaml
+fastapi.Dockerfile
+README.md
+
+*.log
+favenv
+.env
