@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: 'tsadimas/fastapi:2022'
+          image: 'tsadimas/fastapi:2022nr'
           ports:
             - containerPort: 8000
           envFrom:
