@@ -3,6 +3,10 @@ Fastapi k8s
 ```bash
 kubectl create configmap fastapi-config --from-env-file=k8s/fapi/fastapi.env
 
+kubectl create secret generic mysecret --from-literal=mypassord='abcdefh1234' --from-literal=myapikey='12345678'
+
+kubectl create secret generic sqlfilesecret --from-file=assets/postgres/init.sql
+
 ```
 
 https://my.noip.com/dynamic-dns
