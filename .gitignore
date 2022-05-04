@@ -14,3 +14,5 @@ project/media
 # env files
 .env
 
+
+.pytest_cache
